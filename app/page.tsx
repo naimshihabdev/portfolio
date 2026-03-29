@@ -1,6 +1,5 @@
 import { About } from "@/features/home/about";
 import { Experience } from "@/features/home/experience";
-import { Footer } from "@/features/home/footer";
 import { Header } from "@/features/home/header";
 import { Projects } from "@/features/home/projects";
 

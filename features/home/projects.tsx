@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/dialog";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
-import { useState } from "react";
 
 const PROJECTS = [
   {
