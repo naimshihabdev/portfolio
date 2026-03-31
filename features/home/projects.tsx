@@ -132,6 +132,7 @@ export function Projects() {
                           src={project.image}
                           alt={project.title}
                           fill
+                          sizes="(max-width: 768px) 100vw, 25vw"
                           className="object-cover transition-transform duration-500 group-hover:scale-105"
                         />
                       </div>
@@ -153,6 +154,7 @@ export function Projects() {
                         src={project.image}
                         alt={project.title}
                         fill
+                        sizes="(max-width: 600px) 100vw, 600px"
                         className="object-cover"
                       />
                     </div>

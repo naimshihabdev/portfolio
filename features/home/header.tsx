@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
 const NAV_ITEMS = [
   { name: "Tentang", href: "#about" },
+  { name: "Keahlian", href: "#skills" },
   { name: "Pengalaman", href: "#experience" },
   { name: "Proyek", href: "#projects" },
 ];
@@ -15,7 +16,7 @@ export function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["projects", "experience", "about"];
+      const sections = ["projects", "experience", "skills", "about"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {

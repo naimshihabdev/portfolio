@@ -2,6 +2,7 @@ import { About } from "@/features/home/about";
 import { Experience } from "@/features/home/experience";
 import { Header } from "@/features/home/header";
 import { Projects } from "@/features/home/projects";
+import { Skills } from "@/features/home/skills";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
           <Header />
           <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
             <About />
+            <Skills />
             <Experience />
             <Projects />
             {/* <Footer /> */}

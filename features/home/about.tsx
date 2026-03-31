@@ -12,15 +12,30 @@ export function About() {
       </div>
       <div>
         <p className="mb-4">
-          Pada tahun 2021, saya memutuskan untuk langsung terjun ke dunia
-          pemrograman dan pengembangan web. Hingga saat ini, saya telah
-          berkesempatan mengembangkan perangkat lunak untuk sebuah software
-          house, dan perusahaan rintisan.
+          Saya adalah pengembang perangkat lunak yang berfokus pada pembangunan
+          sistem yang tidak hanya berfungsi secara teknis, tetapi juga
+          memberikan pengalaman pengguna yang bermakna dan intuitif.
         </p>
         <p className="mb-4">
-          Saat ini, fokus utama saya adalah mengembangkan produk dan pengalaman
-          digital yang efisien dan user-friendly. Saya terutama bekerja dengan
-          TypeScript, React, Next.js, dan NestJS.
+          Perjalanan saya dimulai pada tahun 2021, dan sejak saat itu saya telah
+          berkolaborasi dengan berbagai tim—dari <i>software house</i> yang
+          dinamis hingga <i>startup</i> yang bergerak cepat. Saya telah
+          menangani berbagai tantangan teknis, mulai dari membangun platform
+          lelang <i>real-time</i>, integrasi konsep <i>blockchain</i> untuk aset
+          properti, hingga optimalisasi sistem manajemen internal perusahaan.
+        </p>
+        <p className="mb-4">
+          Saya percaya bahwa teknologi terbaik adalah teknologi yang mampu
+          menyederhanakan kompleksitas. Fokus utama saya adalah menulis kode
+          yang bersih (<i>clean code</i>) dan performa tinggi menggunakan
+          ekosistem JavaScript modern seperti <b>React</b>, <b>Next.js</b>, dan{" "}
+          <b>NestJS</b>.
+        </p>
+        <p className="mb-4">
+          Di luar urusan teknis, saya selalu antusias mempelajari bagaimana
+          inovasi digital dapat membantu bisnis tumbuh lebih efisien. Jika Anda
+          memiliki visi besar yang ingin diwujudkan menjadi produk yang solid,
+          saya siap menjadi mitra pengembangan Anda.
         </p>
       </div>
     </section>
