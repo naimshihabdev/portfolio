@@ -25,7 +25,7 @@ const EXPERIENCES = [
   },
   {
     id: "exp-3",
-    role: "Fullstack Developer Intern",
+    role: "Fullstack Web Developer Intern",
     company: "PT. Grocee Teknologi Indonesia",
     url: "https://grocee.id/",
     startDate: "Agt 2023",
