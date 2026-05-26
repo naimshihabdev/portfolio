@@ -9,6 +9,7 @@ const SKILLS = [
   { name: "NestJS", slug: "nestjs" },
   { name: "Docker", slug: "docker" },
   { name: "MySQL", slug: "mysql" },
+  { name: "Supabase", slug: "supabase" },
 ];
 
 export function Skills() {

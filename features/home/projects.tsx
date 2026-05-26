@@ -19,7 +19,7 @@ const PROJECTS = [
     description:
       "Platform lelang online daring yang memungkinkan pengguna untuk melakukan penawaran pada berbagai aset secara real-time.",
     image: "/bimantara.png",
-    url: "https://bimantara-lelang.web.app/",
+    url: "https://bimantaraoptima.co.id/",
     skills: ["React", "Firebase", "Tailwind CSS"],
     fullDescription:
       "Sebuah platform lelang yang dirancang untuk transparansi dan kemudahan akses. Dilengkapi dengan sistem penawaran real-time dan manajemen aset yang terstruktur.",
@@ -42,7 +42,7 @@ const PROJECTS = [
       "Solusi manajemen presensi atau kehadiran digital yang akurat untuk institusi dan perusahaan.",
     image: "/preselix.png",
     url: "https://preselix.id/",
-    skills: ["Next.js", "NestJS", "Tailwind CSS"],
+    skills: ["Next.js", "NestJS", "Tailwind CSS", "Prisma", "MySQL"],
     fullDescription:
       "Sistem absensi modern yang mendukung rekapitulasi data otomatis dan integrasi laporan kehadiran guna meningkatkan kedisiplinan operasional.",
   },
@@ -52,8 +52,8 @@ const PROJECTS = [
     description:
       "Website profil resmi SMK Geologi Tenggarong untuk informasi akademik dan pendaftaran siswa baru.",
     image: "/smk-tenggarong.png",
-    url: "https://lp-smk-geologi-tenggarong.vercel.app/",
-    skills: ["Next.js", "Tailwind CSS"],
+    url: "https://smkgeopertenggarong.sch.id/",
+    skills: ["Next.js", "Tailwind CSS", "Supabase"],
     fullDescription:
       "Landing page yang informatif mengenai program keahlian di SMK Geologi Tenggarong, fasilitas sekolah, serta berita terbaru seputar kegiatan pendidikan.",
   },
