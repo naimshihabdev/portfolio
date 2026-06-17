@@ -1,6 +1,12 @@
 "use client";
 
-import { Code, Phone, Camera, Mail, Maximize2, X } from "lucide-react";
+import { Maximize2, X } from "lucide-react";
+import {
+  GithubIcon,
+  WhatsappIcon,
+  InstagramIcon,
+  EmailIcon,
+} from "@/components/icons";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -149,7 +155,7 @@ export function Header() {
             aria-label="GitHub (buka di tab baru)"
           >
             <span className="sr-only">GitHub</span>
-            <Code className="h-6 w-6" />
+            <GithubIcon className="h-6 w-6" />
           </Link>
         </li>
         <li className="text-xs shrink-0">
@@ -161,7 +167,7 @@ export function Header() {
             aria-label="WhatsApp (buka di tab baru)"
           >
             <span className="sr-only">WhatsApp</span>
-            <Phone className="h-6 w-6" />
+            <WhatsappIcon className="h-6 w-6" />
           </Link>
         </li>
         <li className="text-xs shrink-0">
@@ -173,7 +179,7 @@ export function Header() {
             aria-label="Instagram (buka di tab baru)"
           >
             <span className="sr-only">Instagram</span>
-            <Camera className="h-6 w-6" />
+            <InstagramIcon className="h-6 w-6" />
           </Link>
         </li>
         <li className="text-xs shrink-0">
@@ -185,7 +191,7 @@ export function Header() {
             aria-label="Email (buka di tab baru)"
           >
             <span className="sr-only">Email</span>
-            <Mail className="h-6 w-6" />
+            <EmailIcon className="h-6 w-6" />
           </Link>
         </li>
       </ul>
@@ -198,7 +204,7 @@ export function Header() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  className="fixed inset-0 z-[9999] flex items-center justify-center bg-slate-950/80 p-4 backdrop-blur-md cursor-zoom-out"
+                  className="fixed inset-0 z-9999 flex items-center justify-center bg-slate-950/80 p-4 backdrop-blur-md cursor-zoom-out"
                   onClick={() => setIsZoomed(false)}
                 >
                   <motion.div
@@ -249,7 +255,7 @@ export function Header() {
                 </motion.div>
               )}
             </AnimatePresence>,
-            document.body
+            document.body,
           )
         : null}
     </header>
