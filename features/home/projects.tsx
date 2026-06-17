@@ -15,43 +15,43 @@ import Image from "next/image";
 const PROJECTS = [
   {
     id: "proj-1",
-    title: "Bimantara Lelang",
-    description:
-      "Platform lelang online daring yang memungkinkan pengguna untuk melakukan penawaran pada berbagai aset secara real-time.",
-    image: "/bimantara.png",
-    url: "https://bimantaraoptima.co.id/",
-    skills: ["React", "Firebase", "Tailwind CSS"],
-    fullDescription:
-      "Sebuah platform lelang yang dirancang untuk transparansi dan kemudahan akses. Dilengkapi dengan sistem penawaran real-time dan manajemen aset yang terstruktur.",
-  },
-  {
-    id: "proj-2",
-    title: "AsetQu",
-    description:
-      "Sistem manajemen aset digital yang membantu pengguna dalam pelacakan dan optimalisasi aset secara efisien.",
-    image: "/asetqu.png",
-    url: "https://www.asetqu.com/",
-    skills: ["Next.js", "TypeScript"],
-    fullDescription:
-      "Platform pengelolaan aset yang berfokus pada kemudahan pengguna dalam memonitor status dan nilai aset mereka dalam satu dashboard terintegrasi.",
-  },
-  {
-    id: "proj-3",
     title: "Preselix",
     description:
       "Solusi manajemen presensi atau kehadiran digital yang akurat untuk institusi dan perusahaan.",
-    image: "/preselix.png",
+    image: "/preselix.webp",
     url: "https://preselix.id/",
     skills: ["Next.js", "NestJS", "Tailwind CSS", "Prisma", "MySQL"],
     fullDescription:
       "Sistem absensi modern yang mendukung rekapitulasi data otomatis dan integrasi laporan kehadiran guna meningkatkan kedisiplinan operasional.",
   },
   {
+    id: "proj-2",
+    title: "Masuk Akal Media",
+    description:
+      "Platform media digital berita terkini dan terpercaya untuk masyarakat Indonesia.",
+    image: "/masukakal.webp",
+    url: "https://masukakal.com/",
+    skills: ["Next.js", "TypeScript", "Tailwind CSS"],
+    fullDescription:
+      "Portal berita digital yang menyajikan berita terkini dan terpercaya untuk masyarakat Indonesia, mencakup kategori Ekonomi, Teknologi, Olahraga, Lifestyle, Opini, dan lainnya. Dikembangkan dengan fokus pada performa, SEO, dan pengalaman membaca yang optimal.",
+  },
+  {
+    id: "proj-3",
+    title: "AsetQu",
+    description:
+      "Sistem manajemen aset digital yang membantu pengguna dalam pelacakan dan optimalisasi aset secara efisien.",
+    image: "/asetqu.webp",
+    url: "https://www.asetqu.com/",
+    skills: ["Next.js", "TypeScript"],
+    fullDescription:
+      "Platform pengelolaan aset yang berfokus pada kemudahan pengguna dalam memonitor status dan nilai aset mereka dalam satu dashboard terintegrasi.",
+  },
+  {
     id: "proj-4",
     title: "SMK Geologi Tenggarong",
     description:
       "Website profil resmi SMK Geologi Tenggarong untuk informasi akademik dan pendaftaran siswa baru.",
-    image: "/smk-tenggarong.png",
+    image: "/smkgeoper.webp",
     url: "https://smkgeopertenggarong.sch.id/",
     skills: ["Next.js", "Tailwind CSS", "Supabase"],
     fullDescription:
@@ -59,14 +59,14 @@ const PROJECTS = [
   },
   {
     id: "proj-5",
-    title: "PiliPilih",
+    title: "Bimantara Lelang",
     description:
-      "Portal kurasi dan perbandingan produk untuk membantu konsumen membuat keputusan pembelian yang lebih cerdas.",
-    image: "/pilipilih.png",
-    url: "https://pilipilih.com/",
-    skills: ["Next.js", "Tailwind CSS"],
+      "Platform lelang online daring yang memungkinkan pengguna untuk melakukan penawaran pada berbagai aset secara real-time.",
+    image: "/bimantara.webp",
+    url: "https://bimantaraoptima.co.id/",
+    skills: ["React", "Firebase", "Tailwind CSS"],
     fullDescription:
-      "Platform pemilihan produk yang mengumpulkan ulasan dan spesifikasi terbaik untuk membantu pengguna mendapatkan barang sesuai kebutuhan mereka.",
+      "Sebuah platform lelang yang dirancang untuk transparansi dan kemudahan akses. Dilengkapi dengan sistem penawaran real-time dan manajemen aset yang terstruktur.",
   },
 ];
 
