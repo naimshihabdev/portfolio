@@ -103,7 +103,7 @@ export function Header() {
           <Link href="/">Naim Shihab</Link>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Fullstack Web Developer
+          Full-Stack Web Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           Saya membangun produk dan pengalaman digital yang efisien dan ramah
@@ -243,7 +243,7 @@ export function Header() {
                         Naim Shihab
                       </h3>
                       <p className="mt-1 text-sm font-medium tracking-wide text-teal-300 uppercase">
-                        Fullstack Web Developer
+                        Full-Stack Web Developer
                       </p>
                       <div className="mt-4 flex justify-center gap-4 border-t border-slate-800/60 pt-4 text-xs text-slate-400">
                         <span>📍 Indonesia</span>

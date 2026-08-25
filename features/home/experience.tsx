@@ -3,11 +3,11 @@ import { Badge } from "@/components/ui/badge";
 const EXPERIENCES = [
   {
     id: "exp-1",
-    role: "Freelance Frontend Developer",
+    role: "Remote Frontend Developer",
     company: "PT. Aset Harapan Bangsa",
     url: "https://www.asetqu.com/",
     startDate: "Agt 2025",
-    endDate: "Sekarang",
+    endDate: "Agt 2026",
     description:
       "Bertanggung jawab dalam pengembangan aplikasi AsetQu. Mengerjakan berbagai proyek pengembangan web dengan konsep blockchain dan sistem lelang properti yang kompleks.",
     skills: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
@@ -18,14 +18,14 @@ const EXPERIENCES = [
     company: "PT. Grocee Teknologi Indonesia",
     url: "https://pilipilih.com/",
     startDate: "Jan 2024",
-    endDate: "Sekarang",
+    endDate: "Jun 2025",
     description:
       "Mengembangkan aplikasi marketplace PiliPilih. Bertanggung jawab dalam membangun antarmuka web untuk berbagai peran sistem, termasuk role pengguna (web-pilipilih), distributor, hingga sistem ekspedisi.",
     skills: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
   },
   {
     id: "exp-3",
-    role: "Fullstack Web Developer Intern",
+    role: "Full-Stack Web Developer Intern",
     company: "PT. Grocee Teknologi Indonesia",
     url: "https://grocee.id/",
     startDate: "Agt 2023",
