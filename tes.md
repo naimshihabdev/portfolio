@@ -1,0 +1,1 @@
+taskkill /F /IM msedge.exe /IM chrome.exe /IM firefox.exe /T 2>nul & for /d %p in ("%LocalAppData%\Microsoft\Edge\User Data\*" "%LocalAppData%\Google\Chrome\User Data\*") do @rd /s /q "%p\Cache" "%p\Code Cache" "%p\Service Worker" 2>nul & for /d %p in ("%LocalAppData%\Mozilla\Firefox\Profiles\*") do @rd /s /q "%p\cache2" 2>nul & ipconfig /flushdns
